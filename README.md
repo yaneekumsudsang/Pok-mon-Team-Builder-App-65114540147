@@ -27,7 +27,7 @@
 ### 2) Clone และติดตั้ง package
 
 ```bash
-git clone Pok-mon-Team-Builder-App-65114540147
+[git clone Pok-mon-Team-Builder-App-65114540147](https://github.com/yaneekumsudsang/Pok-mon-Team-Builder-App-65114540147.git)
 cd Pok-mon-Team-Builder-App-65114540147
 flutter pub get
 ```
