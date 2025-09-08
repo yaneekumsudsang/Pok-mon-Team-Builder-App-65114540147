@@ -10,8 +10,10 @@
         "cupertino_icons",
         "flutter",
         "flutter_bloc",
+        "get",
         "get_storage",
-        "http"
+        "http",
+        "pocketbase"
       ],
       "devDependencies": [
         "flutter_lints",
@@ -44,6 +46,14 @@
       ]
     },
     {
+      "name": "pocketbase",
+      "version": "0.23.0+1",
+      "dependencies": [
+        "http",
+        "json_annotation"
+      ]
+    },
+    {
       "name": "cupertino_icons",
       "version": "1.0.8",
       "dependencies": []
@@ -64,6 +74,14 @@
         "async",
         "http_parser",
         "meta",
+        "web"
+      ]
+    },
+    {
+      "name": "get",
+      "version": "4.7.2",
+      "dependencies": [
+        "flutter",
         "web"
       ]
     },
@@ -178,6 +196,13 @@
       ]
     },
     {
+      "name": "json_annotation",
+      "version": "4.9.0",
+      "dependencies": [
+        "meta"
+      ]
+    },
+    {
       "name": "path_provider",
       "version": "2.1.5",
       "dependencies": [
@@ -187,14 +212,6 @@
         "path_provider_linux",
         "path_provider_platform_interface",
         "path_provider_windows"
-      ]
-    },
-    {
-      "name": "get",
-      "version": "4.7.2",
-      "dependencies": [
-        "flutter",
-        "web"
       ]
     },
     {
