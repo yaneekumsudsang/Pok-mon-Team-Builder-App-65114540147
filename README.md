@@ -1,4 +1,4 @@
-## ▶️ วิธีรันโปรเจกต์
+## วิธีรันโปรเจกต์
 
 ### 1) เตรียมเครื่อง
 
@@ -9,22 +9,31 @@
 
 ```bash
 git clone https://github.com/yaneekumsudsang/Pok-mon-Team-Builder-App-65114540147.git
+```
+```bash
 cd Pok-mon-Team-Builder-App-65114540147
+```
+```bash
 git checkout CRUDpocketbase
+```
+```bash
 flutter pub get
+```
+```bash
 dart run bin/seed.dart
 ```
 
 ### 3) รันแอป
-
-```bash
 # Android emulator / device จริง
+```bash
 flutter run -d android
-
+```
 # iOS simulator (macOS เท่านั้น)
+```bash
 flutter run -d ios
-
+```
 # Web (Chrome)
+```bash
 flutter run -d chrome
 ```
 
